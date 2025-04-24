@@ -5,6 +5,10 @@ public class LoginTest {
 
 WebDriver driver = new ChromeDriver();
 
+driver.manage().maximize().window();
+
+driver.geturl("https://www.Incloudwebsite.com");
+
 driver.findelements(by.id("username").sendkeys("Prasanth");
 
 driver.findelements(by.id("password').sendkeys("Abc@123");
