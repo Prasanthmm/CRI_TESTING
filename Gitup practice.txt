@@ -1,0 +1,15 @@
+Owner: Prasanth
+
+public class LoginTest {
+    public static void main(String[] args) {
+
+WebDriver driver = new ChromeDriver();
+
+driver.findelements(by.id("username").sendkeys("Prasanth");
+
+driver.findelements(by.id("password').sendkeys("Abc@123");
+
+driver.findelments(by.id("login").click();
+
+    }
+}
